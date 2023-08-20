@@ -1,0 +1,662 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+html,body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: rgb(5, 5, 5);
+   
+}
+
+.navBar {
+    background-color: rgb(9, 8, 6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+.navBar h1 {
+    font-size: 20px;
+}
+.subNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-right: 50px;
+    color: white;
+   
+}
+.subNav a {
+    font-size: 18px;
+    font-weight: 600; 
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.subNav a:hover {
+    background-color: rgb(252, 3, 3);
+    color: rgb(252, 250, 250);
+}
+.menuIcon {
+    display: none!important;
+}
+input {
+    display: none;
+}
+
+.container-one{
+    /* background-color: rgb(17, 17, 17); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+   
+}
+
+.text h2{
+   color: rgb(248, 238, 238);
+   position: relative;
+   top: -50px;
+   left: 280px;
+   font-size: 50px;
+   letter-spacing: 8px;
+   
+}
+.text p{
+    color: rgb(248, 238, 238);
+    position: relative;
+    top: -30px;
+    left: 280px;
+   font-size: 20px;
+   letter-spacing: 5px;
+    
+ }
+
+ button{
+    color: rgb(253, 247, 247);
+    background-color: rgb(7, 7, 7);
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+    position: relative;
+    top: 80px;
+    right: 150px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 1;
+    padding: 15px;
+
+ 
+   
+  
+   
+
+    
+ }
+
+ button:hover{
+    color: rgb(253, 247, 247);
+    background-color: rgb(78, 6, 248);
+    transition: all 2s;
+    
+ }
+
+.profile-image{
+    position: relative;
+}
+
+
+ .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 30px;
+   
+  }
+  .Services{
+   color: rgb(248, 244, 244);
+   text-shadow: 2px 2px 4px #f8f8f4;
+   position: relative;
+   top: -1295px;
+   left: 500px;
+   font-size: 20px;
+   letter-spacing: 5px;
+   font-weight: 800;
+
+  }
+  .grid-item {
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    gap: 2px;
+    position: relative;
+    left: -30px;
+    
+  }
+
+  .grid-item img{
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    border: 10px solid white;
+  }
+  .grid-item  h4    {
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    letter-spacing: 3px;
+    font-weight: 800;
+   
+  }
+  
+  .grid-item  img:hover    {
+    background-color: rgb(248, 247, 247);
+    padding: 10px;
+ 
+  }
+
+
+
+
+
+.container-shop{
+   background-color: rgb(7, 7, 7);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px;
+}
+
+.shop-heading h2{
+    position: relative;
+    top: -290px;
+    left: 300px;
+    color: rgb(243, 238, 238);
+    text-shadow: 2px 2px 4px #f8f8f4;
+    letter-spacing: 5px;
+    
+}
+
+.Shop-text p{
+    padding-left: 70px;
+word-wrap: break-all;
+  font-size: 17px;
+  font-family: 700;
+  color: white;
+  margin-right : 20px;
+
+  
+}
+.shop-image img{
+    position: relative;
+    top: 10px;
+    width: 250px;
+  
+}
+
+
+.Shop-text button{
+    position: relative;
+    top: 20px;
+    left: 350px;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 2px;
+    
+    
+}
+
+
+.Shop-text button:hover{
+    background-color: rgb(126, 5, 238);
+    color: rgb(250, 246, 246);
+    transition: all 5s;
+}
+.container-rate{
+    background-color: rgb(73, 188, 223);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+ }
+
+
+.rate{
+    background-color: white;
+    color: rgb(20, 20, 20);
+    font-size: 20px;
+    font-family: 700;
+    padding: 20px;
+    width: 350px;
+    position: relative;
+    left: 200px;    
+}
+.rate h2{
+   padding-left: 40px;
+}
+
+.rate p{
+    padding: 8px;
+    font-size: 15px;
+    padding-left: 55px;
+    
+ }
+.rate1{
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    font-family: 700;
+}
+
+.rate1 h2{
+    line-height: 2;
+}
+
+.rate1 h3{
+    line-height: 1.5;
+}
+
+
+.rate1 p{
+    line-height: 2;
+}
+
+
+.Our-Price{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(7, 7, 7);
+    color: white;
+}
+
+.price-text{
+  position: relative;
+  top: -90px;
+  right: 600px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 4px #f8f8f4;
+}
+
+
+.pricing{
+    padding: 30px;
+    margin: 30px;
+    position: relative;
+    left: 100px;
+    line-height: 5px;
+    
+}
+
+.pricing p{
+    padding: 10px;
+    letter-spacing: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+   
+  }
+  
+  .grid-item1 {
+   padding: 20px;
+ 
+    
+  }
+
+  .grid-item1 img{
+    width: 300px;
+    border-radius: 10px;
+    border: 15px solid white;
+   }
+  
+  .grid-item1 h2{
+    position: relative;
+    top: -90px;
+    color: white;
+    left: 35px;
+  }
+
+  .grid-item1 h3{
+    position: relative;
+    top: -70px;
+    color: white;
+    left: 35px;
+  }
+
+ .textone h2{
+    color: rgb(245, 239, 239);
+    text-shadow: 2px 2px 4px #f8f8f4;
+    position: relative;
+    top: -1100px;
+    left: 500px;
+    font-size: 30px;
+   letter-spacing: 5px;
+   font-weight: 800;
+}  
+
+.grid-item1 img:hover{
+background-color: rgb(245, 241, 241);
+padding: 10px;
+
+}
+
+.HairStyles h2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;  
+    padding: 30px;
+    position: relative;
+    left: 400px;
+}
+
+
+.galleryheading h2{
+    position: relative;
+    left: 600px;
+    top: -110px;
+    color: rgb(245, 239, 239);
+    text-shadow: 2px 2px 4px #f8f8f4;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: 800;
+    
+}
+
+.Gallery {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    position: relative;
+    top: -100px;
+  }
+  .Gallery > div {
+   padding: 13px;
+    font-size: 30px;
+    border: 2px solid white;
+  }
+
+  .Gallery > div img {
+    width: 300px;
+    height: 300px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Contactus{
+    padding: 30px;
+    background-color: rgb(7, 7, 7);
+    color: rgb(8, 8, 8);
+    display: flex;
+    justify-content: space-evenly;
+    color: #f8f8f4;
+}
+
+.Contactustext h3{
+    padding: 20px;
+   line-height: 1.5;
+   color: white;
+  font-family: 700;
+  font-size: 35px;
+}
+
+.Contactustext p{
+    padding: 20px;
+  line-height: 2;
+  font-size: 20px;
+  color: white;
+  font-family: 700;
+}
+
+
+
+input[type="text"] {
+    width: 120%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    background-color: white;
+    background-color: black;
+    color: rgb(15, 15, 15);
+    border: 1px solid white;
+    font-size: 15px;
+    position: relative;
+    left: -10px;
+    
+  }
+  
+  ::placeholder {
+    color: rgb(255, 253, 253);
+    opacity: 1; /* Firefox */
+  }
+ 
+
+
+  textarea{
+    width: 120%;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 20px;
+    position: relative;
+    left: -10px;
+  }
+
+form button{
+    color: rgb(3, 3, 3);
+    background-color: white;
+    position: relative;
+    top: 10px;
+    left: 190px;
+    border-radius: 2px;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(14, 14, 13);
+    padding: 40px;
+}
+
+.address h2{
+    font-size: 22px;
+    line-height: 2;
+    color: white;
+    font-style: italic;
+}
+
+.Branches h2{
+    font-size: 22px;
+    line-height: 2;
+    color: white;
+    font-style: italic;
+}
+
+.Contact h2{
+    font-size: 22px;
+    line-height: 2;
+    color: white;
+    font-style: italic;
+}
+.SocialLinks h2{
+    font-size: 22px;
+    line-height: 2;
+    color: white;
+    font-style: italic;
+}
+
+.address p{
+    font-size: 18px;
+    line-height: 2;
+    color: white;
+    font-style: oblique;
+}
+
+.Branches p{
+    font-size: 18px;
+    line-height: 2;
+    color: white;
+    font-style: oblique;
+}
+
+.Contact p{
+    font-size: 18px;
+    line-height: 2;
+    color: white;
+    font-style: oblique;
+}
+.SocialLinks p{
+    font-size: 18px;
+    line-height: 2;
+    color: white;
+    font-style: oblique;
+}
+
+
+.icon{
+  font-size: 25px;
+  padding: 3px;
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width:800px) {
+    .subNav {
+        position: fixed;
+        flex-direction: column;
+        justify-content: start;
+        padding: 25px 0px 0px;
+        left: -200%;
+        /* left: 0; */
+        top: 53px;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(36, 40, 30);
+        transition: all 1s;
+    }
+    .menuIcon {
+        display: unset!important;
+        font-size: 25px;
+        
+    }
+    input:checked~.subNav {
+        left: 0;
+        /* background-color: aqua; */
+    }
+
+.container-one{
+    display: flex;
+    flex-direction: column;
+   
+   
+   
+}
+
+/* .container-one .profile-image{
+    position: relative;
+    top: -100px;
+    left: 50px;
+    width: 100px;
+}
+
+.container-one .profile-image img{
+    width: 500px;
+}
+
+.container-one .text{
+   position: relative;
+   top: 400px;
+   
+ 
+}
+
+.container-one .text h2{
+   font-size: 30px;
+    
+  
+ } */
+.grid-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-shop{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-rate{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-rate .rate{
+    position: relative;
+    left: 30px;
+}
+
+.Our-Price{
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing span{
+    padding: 100px;
+}
+
+.grid-container1{
+    display: flex;
+    flex-direction: column;
+}
+.Gallery{
+    display: flex;
+    flex-direction: column;
+}
+
+.Contactus{
+    display: flex;
+    flex-direction: column;
+}
+
+
+}
